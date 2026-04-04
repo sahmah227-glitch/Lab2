@@ -1,0 +1,64 @@
+.movie-card {
+  width: 260px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.movie-content {
+  padding: 16px;
+}
+
+.movie-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.movie-content p {
+  margin-bottom: 8px;
+  color: #374151;
+  font-size: 16px;
+}
+
+.buy-btn {
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.available-ticket {
+  background-color: #16a34a; /* أخضر */
+}
+
+.medium-ticket {
+  background-color: #eab308; /* أصفر */
+  color: black;
+}
+
+.low-ticket {
+  background-color: #f97316; /* برتقالي */
+}
+
+.sold-out {
+  background-color: #dc2626; /* أحمر */
+  cursor: not-allowed;
+  opacity: 0.7;
+}
